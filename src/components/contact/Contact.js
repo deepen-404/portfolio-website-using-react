@@ -14,7 +14,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_wzq044a",
-        "template_60b8uk3",
+        "template_4oaf15j",
         form.current,
         "FSDyZ0rNnu2D4a-SM"
       )
@@ -40,16 +40,16 @@ const Contact = () => {
           <article className={"contact__option"}>
             <MdOutlineEmail className={"contact__option-icon"} />
             <h4>Email</h4>
-            <h5>dummyanuj@gmail.com</h5>
-            <a href={"mailto:saraogi.anuj9@gmail.com"} target={"_blank"}>
+            <h5>intruderdeepen@gmail.com.com</h5>
+            <a href={"mailto:intruderdeepen@gmail.com"} target={"_blank"}>
               Send a Message
             </a>
           </article>
           <article className={"contact__option"}>
             <RiMessengerLine className={"contact__option-icon"} />
             <h4>Messenger</h4>
-            <h5>anujtutorials</h5>
-            <a href={"https://m.me/ernest.achiever"} target={"_blank"}>
+            <h5>Deepen Timalsina</h5>
+            <a href={"https://m.me/deepen.timalsina.1"} target={"_blank"}>
               Send a Message
             </a>
           </article>
@@ -58,7 +58,7 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <h5>+91 7898583987</h5>
             <a
-              href={"https://api.whatsapp.com/phone=+917898583987"}
+              href={"https://api.whatsapp.com/send?phone=9779849175324"}
               target={"_blank"}
             >
               Send a Message
