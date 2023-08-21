@@ -32,7 +32,7 @@ const Footer = () => {
         </li>
         <li>
           {" "}
-          <a href="#testimonial">Testimonial</a>
+          <a href="#testimonials">Testimonial</a>
         </li>
         <li>
           {" "}
@@ -41,18 +41,18 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com" target={"_blank"}>
           <SiFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com" target={"_blank"}>
           <PiInstagramLogoDuotone />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target={"_blank"}>
           <FaTwitterSquare />
         </a>
       </div>
 
-      <div className="footer_copyright">
+      <div className="footer_copyright" >
         <small>&copy;Deepen Timalsina. All Rights Reserved</small>
       </div>
     </footer>
